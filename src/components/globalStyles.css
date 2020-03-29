@@ -26,6 +26,8 @@
   background: rgba(0, 194, 189, 0.6);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Work+Sans:wght@400;600&display=swap');
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -34,12 +36,12 @@ html {
 }
 
 body {
-  font-family: var(--font-primary);
+  font-family: 'Work Sans', sans-serif;
   min-height: 100%;
   position: relative;
   background: var(--lightGrey);
   color: var(--secondary);
-  font-size: 1.6em;
+  font-size: 1.8em;
   font-weight: 400;
   letter-spacing: 0.01em;
   line-height: 1.6;
